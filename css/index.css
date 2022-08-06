@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url("../images/backcover.svg");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  height: 100vh;
+}
+.main-div {
+  width: 80rem;
+  margin: 0 auto;
+  font-family: "Roboto";
+  overflow-x: hidden;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  height: 16vh;
+  align-items: center;
+}
+.nav-items {
+  display: flex;
+  font-size: 18px;
+  color: #555da0;
+  font-weight: 600;
+}
+.nav-item:not(:last-child) {
+  margin-right: 50px;
+}
+nav img {
+  width: 120px;
+}
+nav .signin-btn {
+  border: none;
+  background: linear-gradient(to right, #965cf2, #ff8adc);
+  color: #ffffff;
+  padding: 5px 10px;
+  border-radius: 30px;
+}
+
+.intro-section {
+  display: flex;
+}
+
+.intro-section .left-section {
+  margin-top: 10rem;
+}
+.intro-section .left-section h1 {
+  font-size: 4rem;
+  font-weight: bolder;
+  color: #555da0;
+}
+.intro-section .left-section h4 {
+  margin-top: 3rem;
+  width: 24rem;
+  font-weight: 100;
+}
+.learn-more-btn {
+  margin-top: 3rem;
+  font-size: 24px;
+  font-weight: 500;
+  border: none;
+  padding: 10px 20px;
+  background: linear-gradient(to right, #965cf2, #ff8adc);
+  border-radius: 50px;
+  color: #ffffff;
+}
+
+.imgs-div {
+  display: flex;
+  position: relative;
+  left: 80px;
+}
+.imgs-div .vector-img {
+  position: absolute;
+  top: 25rem;
+  left: 4rem;
+}
+
+.imgs-div .vector-dot {
+  position: absolute;
+  top: 25rem;
+  left: 8rem;
+}
