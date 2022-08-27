@@ -5,7 +5,7 @@
 ![ineuro, lco](https://img.shields.io/badge/iNeuron-LCO-green)
 ![HTML & CSS](https://img.shields.io/badge/HTML-CSS-orange)
 
-## Project 8 [Live Link](https://amirjadhav-html-project-8.netlify.app)
+## Project 8 [Live Link](https://amirjadhav-design-landing-page.netlify.app)
 
 - Skills Gained in this project
 
